@@ -310,6 +310,7 @@ namespace Exercise6
                     numOfEmployees = dept.NumOfEmployees
                 })
                 .ToList();
+            
                 
             return result;
         }
