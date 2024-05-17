@@ -291,6 +291,7 @@ namespace Exercise6
         /// </summary>
         public static IEnumerable<object> Task11()
         {
+            
             IEnumerable<object> result = Depts
                 .GroupJoin(
                     Emps,
